@@ -31,7 +31,7 @@ body{
     max-width: 300px;
     /* max-width: 23.4375rem; */
     width: 100%;
-    padding: 0.8rem;
+    padding: 1rem;
 }
 
 .card-img{
@@ -48,7 +48,7 @@ body{
 .card-heading{
     color:var(--color-heading);
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-wrap: balance;
     text-align: center;
     margin-top: 0.8rem;
