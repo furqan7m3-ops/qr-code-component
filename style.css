@@ -14,6 +14,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    padding: 1.5rem;
 }
 
 :root{
@@ -27,10 +28,10 @@ body{
 
 .card{
     background-color: var(--color-card);
-    /* max-width: 375px; */
-    max-width: 23.4375rem;
+    max-width: 300px;
+    /* max-width: 23.4375rem; */
     width: 100%;
-    padding: 1rem;
+    padding: 0.6rem;
 }
 
 .card-img{
@@ -50,7 +51,7 @@ body{
     font-size: 1.5rem;
     text-wrap: balance;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 0.8rem;
 }
 
 .card-text{
@@ -58,7 +59,7 @@ body{
     font-size:0.9375rem; /* 0.9375 rem = 15px*/
     font-weight: 400;
     text-align: center;
-    margin-block: 1rem;
+    margin-block: 0.9rem;
 }
 
 
@@ -71,5 +72,8 @@ body{
 @media screen and (max-width: 375px) {
     :root{
         font-size: 12px;
-    }   
+    }
+    .card{
+        padding:1rem;
+    } 
 }
