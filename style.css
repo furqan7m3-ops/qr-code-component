@@ -11,6 +11,13 @@ body{
     font-family: "Outfit",sans-serif;
 }
 
+:root{
+    --color-background:hsl(212, 45%, 89%);
+    --color-card:hsl(0, 0%, 100%);
+    --color-heading:hsl(218, 44%, 22%);
+    --color-text:hsl(212, 45%, 89%);
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
